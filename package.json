@@ -1,0 +1,23 @@
+{
+  "name": "joint_state_publisher_js",
+  "version": "0.0.1",
+  "description": "joint state publisher javascript library",
+  "main": "src/JointStatePublisher.js",
+  "directories": {
+    "doc": "doc",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobotWebServices/joint_state_publisher_js.git"
+  },
+  "author": "austin.deric@gmail.com",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/RobotWebServices/joint_state_publisher_js/issues"
+  },
+  "homepage": "https://github.com/RobotWebServices/joint_state_publisher_js#readme"
+}
