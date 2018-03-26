@@ -11,6 +11,13 @@
  *   * divID - the ID of the div to place the sliders
  *   *
  */
+
+var ROSLIB = require('roslib');
+
+var JOINTSTATEPUBLISHER = JOINTSTATEPUBLISHER || {
+  REVISION : '0.0.2'
+};
+
 JOINTSTATEPUBLISHER.JointStatePublisher = function(options) {
   var that = this;
   options = options || {};
@@ -122,6 +129,6 @@ JOINTSTATEPUBLISHER.JointStatePublisher = function(options) {
   }
 };
 
-
+module.exports = JOINTSTATEPUBLISHER;
 
 
