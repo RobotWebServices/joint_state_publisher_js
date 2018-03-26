@@ -1,5 +1,5 @@
 {
-  "name": "joint_state_publisher_js",
+  "name": "jointstatepublisherjs",
   "version": "0.0.2",
   "description": "joint state publisher javascript library",
   "main": "src/JointStatePublisher.js",
